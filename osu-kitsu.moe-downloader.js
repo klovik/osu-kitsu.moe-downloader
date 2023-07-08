@@ -11,7 +11,7 @@
     let button;
     let interval = setInterval(() => {
         if (!location.pathname.includes('/beatmapsets/') || (button = document.querySelector("div.beatmapset-header__buttons > a[href*=support]")) == null) return;
-        button.querySelector("span > span.btn-osu-big__left > span").innerText = 'kitsu.moe';
-        button.attributes.href.value = "https://kitsu.moe/api/d/" + location.pathname.split('/')[2]
+        button.querySelector("span > span.btn-osu-big__left > span").innerText = 'chimu.moe';
+        button.attributes.href.value = "https://chimu.moe/d/" + location.pathname.split('/')[2]
 }, 500);
 })();
